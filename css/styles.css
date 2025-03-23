@@ -165,21 +165,19 @@ img {
 
 .visually-hidden {
     position: absolute;
-    width: 1px;
-    height: 1px;
+    width: 1px; 
+    height: 1px; 
     margin: -1px;
-    border: 0;
+    border: 0; 
     padding: 0;
-    
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
+    white-space: nowrap; 
+    clip-path: inset (100%); 
+    clip: rect(0 0 0 0); 
     overflow: hidden;
-    margin-bottom: 8px;
 }
 
 .pros-section {
-    margin: 120px auto;
+    padding: 120px 0;
 }
 
 .pros-container {
@@ -190,6 +188,10 @@ img {
     align-items: center;
     display: flex;
     gap: 24px
+}
+
+.pros-head {
+    margin-bottom: 8px;
 }
 
 .pros-item {
@@ -242,7 +244,7 @@ img {
 }
 
 .team-name {
-    padding-bottom: 8px;
+    margin-bottom: 8px;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
